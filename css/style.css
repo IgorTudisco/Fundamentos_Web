@@ -126,3 +126,11 @@ footer p {
   padding: 15px;
   border: 10px;
 }
+
+#nome {
+  width: 100%;
+}
+
+#habilidade {
+  width: 100%;
+}
