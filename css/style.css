@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(243, 215, 200);
+}
+
+.titulo {
+  color: black;
+  margin: 10px;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+#marcador {
+  border-bottom: 15px solid rgb(246, 116, 9);
+}
+
+#menu li {
+  display: inline;
+  margin: 10px;
+  padding: 15px;
+  background-color: rgb(243, 233, 200);
+}
+
+#menu li a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+#menu li a:hover {
+  color: rgb(246, 116, 9);
+  background-color: rgb(243, 233, 200);
+}
+
+.conteudoInicial {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 15px;
+  border: 10px;
+}
+
+.conteudoInicial p {
+  display: flex;
+  flex-flow: row;
+  margin: 10px;
+  padding: 15px;
+  justify-content: center;
+  font-size: 17px;
+}
+
+.justify {
+  text-align: justify;
+}
+
+.imagem {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin: 10px;
+  padding: 15px;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+}
+
+.video iframe {
+  margin: 10px;
+  padding: 15px;
+}
+
+.tamanho {
+  margin: 10px;
+  padding: 15px;
+  width: 50px;
+  height: 50px;
+}
+
+footer p {
+  text-align: center;
+  margin: 10px;
+  padding: 15px;
+}
+
+/*----------------------*/
+
+.formulario {
+  display: flex;
+  flex-flow: row;
+  justify-content: left;
+  align-items: center;
+  margin: 10px;
+  padding: 15px;
+  border: 10px;
+}
+
+.formulario label {
+  width: 50px;
+  height: 50px;
+  font-size: 17px;
+}
+
+.localidade {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: left;
+  align-items: center;
+  margin: 10px;
+  padding: 15px;
+  border: 10px;
+}
+
+#nome {
+  width: 100%;
+}
+
+#habilidade {
+  width: 100%;
+}

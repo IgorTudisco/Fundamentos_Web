@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Zika2</title>
+  </head>
+  <body>
+    <div class="titulo">
+      <ul id="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="conteudo.html">conteúdo</a></li>
+      </ul>
+    </div>
+
+    <h1 class="titulo" id="marcador">Conteúdo</h1>
+    <br />
+    <br />
+
+    <div class="formulario" id="marcador">
+      <div>
+        <form>
+          <label for="nome">Nome do personagem favorito. </label><br />
+          <input type="text" id="nome" onkeyup="validaNome()" />
+          <div id="txtNome"></div>
+
+          <br />
+
+          <label for="habilidade">Habilidade especial</label> <br />
+          <input type="text" id="habilidade" onkeyup="validaHabilidade()" />
+          <div id="txtHabilidade"></div>
+
+          <br />
+
+          <label for="assunto"
+            >Coloque algo que te marcou nesse personagem.</label
+          >
+          <br />
+          <textarea name="texto" id="assunto" cols="50" rows="5"></textarea>
+        </form>
+        <br />
+        <br />
+        <button>Enviar</button>
+      </div>
+    </div>
+
+    <div class="localidade" id="marcador">
+      <h2 class="titulo">Endereço</h2>
+      <p>Rua Nara</p>
+      <p>Bairro Ino</p>
+      <p>Vila da Folha</p>
+      <img src="img/vilaDaFolha.jpg" alt="Vila da folha" width="35%" />
+    </div>
+
+    <footer>
+      <a href="" target="_blank">
+        <img class="tamanho" src="./img/sharingan1.PNG" alt="Sharingan1" />
+      </a>
+      <a href="" target="_blank">
+        <img class="tamanho" src="./img/sharingan2.PNG" alt="Sharingan2" />
+      </a>
+      <a href="" target="_blank">
+        <img class="tamanho" src="./img/sharingan3.PNG" alt="Sharingan3" />
+      </a>
+      <p>Naruto Zika da balada &copy;</p>
+    </footer>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
