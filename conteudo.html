@@ -39,20 +39,37 @@
             >Coloque algo que te marcou nesse personagem.</label
           >
           <br />
-          <textarea name="texto" id="assunto" cols="50" rows="5"></textarea>
+          <textarea
+            name="assunto"
+            id="assunto"
+            cols="50"
+            rows="5"
+            onkeyup="validaAssunto()"
+          ></textarea>
+          <div id="txtAssunto"></div>
         </form>
         <br />
-        <br />
-        <button>Enviar</button>
+        <button onclick="validaEnvio()">Enviar</button>
       </div>
     </div>
 
     <div class="localidade" id="marcador">
       <h2 class="titulo">Endereço</h2>
-      <p>Rua Nara</p>
-      <p>Bairro Ino</p>
-      <p>Vila da Folha</p>
-      <img src="img/vilaDaFolha.jpg" alt="Vila da folha" width="35%" />
+      <div>
+        <p>Rua Nara</p>
+        <p>Bairro Ino</p>
+        <p>Vila da Folha</p>
+      </div>
+      <div>
+        <img
+          src="img/vilaDaFolha.jpg"
+          alt="Vila da folha"
+          onmousemove="zoomMapa()"
+          onmouseout="zoomNomalMapa()"
+          width="35%"
+          id="mapa"
+        />
+      </div>
     </div>
 
     <footer>
