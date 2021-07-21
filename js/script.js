@@ -5,7 +5,17 @@ let txtNome = document.querySelector('#txtNome')
 let txtHabilidade = document.querySelector('#txtHabilidade')
 
 function validaNome() {
-  if (nome.value.length < 3) {
+  let verificaNum = !isNaN(nome.value)
+  let stringNum
+  for (let i = 0; i < nome.value.length; i++) {
+    let stringNumTrue = !isNaN(nome.value[i])
+    if (stringNumTrue) {
+      stringNum = stringNumTrue
+      console.log(stringNum)
+    }
+  }
+
+  if (nome.value.length < 3 || verificaNum || stringNum) {
     txtNome.innerHTML = 'Nome Inválido'
     txtNome.style.color = 'red'
   } else {
